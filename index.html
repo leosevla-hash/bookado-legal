@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — Bookado</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.2em; margin-top: 1.8em; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+  ul { padding-left: 1.2em; }
+  .data-x { color: #555; font-size: 0.95em; }
+</style>
+</head>
+<body>
+
+<h1>Política de Privacidade do Bookado</h1>
+<p class="data-x">Última atualização: 17 de junho de 2026</p>
+
+<p>O Bookado é um aplicativo de leitura de e-books (EPUB/PDF) com recursos sociais (fórum, comentários, conquistas de leitura). Esta política explica quais dados coletamos, por que coletamos e como você pode controlá-los.</p>
+
+<h2>1. Quem é o responsável pelos seus dados</h2>
+<p>O Bookado é desenvolvido e mantido por um desenvolvedor independente. Para qualquer questão sobre privacidade ou seus dados pessoais, entre em contato pelo e-mail: <strong>bookadoreader@gmail.com</strong>.</p>
+
+<h2>2. Quais dados coletamos</h2>
+<ul>
+  <li><strong>Dados de cadastro:</strong> e-mail e senha (a senha nunca é armazenada em texto puro — usamos autenticação segura via Supabase Auth).</li>
+  <li><strong>Perfil:</strong> nome de usuário e foto de perfil, se você optar por adicionar uma.</li>
+  <li><strong>Conteúdo que você publica:</strong> posts, comentários, avaliações e denúncias no fórum do app. Posts e comentários são <strong>visíveis publicamente</strong> para outros usuários do app.</li>
+  <li><strong>Progresso e atividade de leitura:</strong> livros importados, páginas lidas, tempo de leitura, sequência de dias lidos ("ofensiva") e nível de leitor — usados para as métricas e conquistas dentro do app.</li>
+  <li><strong>Capas de livro:</strong> imagens de capa enviadas por você ao cadastrar um livro na sua biblioteca.</li>
+  <li><strong>Token de notificação:</strong> um identificador técnico do seu dispositivo (via Firebase Cloud Messaging), usado só para enviar notificações do app (ex: resposta a um comentário).</li>
+  <li><strong>Acesso ao Google Drive (opcional):</strong> se você optar por importar livros do seu Google Drive, o app solicita permissão de leitura ao seu Drive apenas para listar e copiar os arquivos que você escolher importar. Não acessamos, armazenamos ou compartilhamos outros arquivos do seu Drive.</li>
+  <li><strong>Biometria (opcional):</strong> se você ativar o desbloqueio por biometria, a verificação (digital/face) é feita inteiramente pelo sistema do Android no seu próprio aparelho. O Bookado nunca recebe, processa ou armazena seus dados biométricos.</li>
+</ul>
+
+<h2>3. Como usamos seus dados</h2>
+<ul>
+  <li>Autenticar sua conta e manter sua sessão.</li>
+  <li>Sincronizar sua biblioteca e seu progresso de leitura entre seus acessos.</li>
+  <li>Exibir suas publicações, comentários e conquistas para outros usuários (quando o conteúdo for público por natureza, como posts do fórum).</li>
+  <li>Enviar notificações relacionadas à sua atividade no app.</li>
+  <li>Moderar conteúdo da comunidade: denúncias de outros usuários e, eventualmente, uma análise automatizada de texto para identificar conteúdo potencialmente abusivo. Essa análise automatizada nunca remove conteúdo sozinha — ela apenas soma como mais um sinal num processo de moderação revisado manualmente.</li>
+</ul>
+
+<h2>4. Com quem compartilhamos dados</h2>
+<p>Não vendemos seus dados. Usamos os seguintes serviços de infraestrutura para operar o app, que processam dados em nosso nome:</p>
+<ul>
+  <li><strong>Supabase</strong> — banco de dados, autenticação e armazenamento de arquivos (capas de livro, fotos de perfil).</li>
+  <li><strong>Google Firebase</strong> — envio de notificações push.</li>
+  <li><strong>Google Drive API</strong> — apenas quando você ativa a importação de livros do seu Drive.</li>
+  <li><strong>Google Perspective API</strong> — análise automatizada de texto para moderação de conteúdo (quando ativa).</li>
+</ul>
+
+<h2>5. Exclusão da sua conta e dos seus dados</h2>
+<p>Você pode solicitar a exclusão completa da sua conta e dos seus dados pessoais a qualquer momento enviando um e-mail para <strong>bookadoreader@gmail.com</strong> com o assunto "Excluir minha conta", a partir do mesmo e-mail cadastrado no app. Processaremos sua solicitação em até 30 dias.</p>
+
+<h2>6. Seus direitos (LGPD)</h2>
+<p>Conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018), você tem direito a confirmar a existência de tratamento, acessar, corrigir, solicitar a portabilidade ou eliminação dos seus dados, e revogar consentimentos dados anteriormente. Para exercer qualquer um desses direitos, entre em contato pelo e-mail informado acima.</p>
+
+<h2>7. Crianças e adolescentes</h2>
+<p>O Bookado não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados desse público.</p>
+
+<h2>8. Segurança</h2>
+<p>Adotamos medidas técnicas razoáveis para proteger seus dados, incluindo controle de acesso (Row Level Security) no banco de dados e comunicação criptografada (HTTPS) entre o app e nossos serviços.</p>
+
+<h2>9. Alterações nesta política</h2>
+<p>Podemos atualizar esta política periodicamente. A data da última atualização está sempre indicada no topo desta página.</p>
+
+</body>
+</html>
